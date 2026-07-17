@@ -1,0 +1,32 @@
+# --- macOS / Windows System Files ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- KiCad Hardware / PCB Files ---
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+_autosave-*
+fp-info-cache
+*.lock
+*.kicad_prl
+
+# --- QMK Firmware Build Files ---
+.build/
+build/
+out/
+*.elf
+*.o
+*.a
+*.map
+*.lst
+*.lss
+*.sym
+*.bin
+*.hex
+*.uf2
+*.eep
+*.qmk
