@@ -3,4 +3,4 @@ MCU = RP2040
 BOOTLOADER = rp2040
 
 # Enable Hack Club OLED Display module
-OLED_ENABLE = ye
+OLED_ENABLE = yes
