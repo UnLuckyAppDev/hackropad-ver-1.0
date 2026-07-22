@@ -1,7 +1,9 @@
 {
     "keyboard_name": "Hackropad Ver. 1.0",
     "url": "",
-    "maintainer": "YourGitHubName",
+    "maintainer": "UnLuckyAppDev",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
     "width": 3,
     "height": 3,
     "features": {
