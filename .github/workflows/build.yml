@@ -1,0 +1,21 @@
+name: Build QMK Firmware
+on: [push, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout project
+      uses: actions/checkout@v4
+
+    - name: Run QMK Compile
+      uses: qmk/qmk-action@v4
+      with:
+        keyboard: firmware/hackropad
+        keymap: default
+
+    - name: Upload UF2 Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: hackropad-firmware
+        path: ./*.uf2
