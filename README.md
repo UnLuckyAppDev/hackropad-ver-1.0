@@ -13,6 +13,6 @@ The following image is the final assembled version (CAD not the real one, I will
 
 <img width="596" height="323" alt="image" src="https://github.com/user-attachments/assets/bba32df4-9e8c-4567-9d5a-633fdf05e9ed" />
 
-The follwoing is the BOM for the Hackropad
+The following is the BOM for the Hackropad
 
 [Hack_Club_Macropad.csv](https://github.com/user-attachments/files/30129260/Hack_Club_Macropad.csv)
