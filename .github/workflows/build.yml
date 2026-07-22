@@ -5,19 +5,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout project
+    - name: Checkout Main Repository
       uses: actions/checkout@v4
       with:
         submodules: recursive
 
-    - name: Run QMK Compile
-      uses: WestberryTech/qmk-action@v1
+    - name: Compile QMK Firmware
+      uses: qmk/qmk-action@v1
       with:
-        keyboard: firmware/hackropad
+        working-dir: firmware/hackropad
+        keyboard: hackropad
         keymap: default
 
-    - name: Upload UF2 Artifact
+    - name: Upload Firmware
       uses: actions/upload-artifact@v4
       with:
-        name: hackropad-firmware
-        path: ./*.uf2
+        name: firmware
+        path: "*.uf2"
