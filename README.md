@@ -24,3 +24,4 @@ The following is a table of what the BOM is:
 |SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9|9  |SW_Push              |Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB                     |
 |U1                                 |1  |MOUDLE-SEEEDUINO-XIAO|HackClub KiCAD Care Package:XIAO-Generic-Hybrid-14P-2.54-21X17.8MM|
 |U2                                 |1  |ER_OLEDM0.91_1x-I2C  |Display:ER_OLEDM0.91_1x-I2C                                       |
+The D is the diode, sw push are the keys, and U1 is the Moudle Seeduino Xiao (the main MCU), the U2 is the OLED.
