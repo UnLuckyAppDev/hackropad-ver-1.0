@@ -16,3 +16,11 @@ The following image is the final assembled version (CAD not the real one, I will
 The following is the BOM for the Hackropad
 
 [Hack_Club_Macropad.csv](https://github.com/user-attachments/files/30129260/Hack_Club_Macropad.csv)
+
+The following is a table of what the BOM is:
+|Reference                          |Qty|Value                |Footprint                                                         |
+|-----------------------------------|---|---------------------|------------------------------------------------------------------|
+|D1,D2,D3,D4,D5,D6,D7,D8,D9         |9  |D                    |Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal                        |
+|SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9|9  |SW_Push              |Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB                     |
+|U1                                 |1  |MOUDLE-SEEEDUINO-XIAO|HackClub KiCAD Care Package:XIAO-Generic-Hybrid-14P-2.54-21X17.8MM|
+|U2                                 |1  |ER_OLEDM0.91_1x-I2C  |Display:ER_OLEDM0.91_1x-I2C                                       |
