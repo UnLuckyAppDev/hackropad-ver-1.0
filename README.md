@@ -1,7 +1,7 @@
 # hackropad-ver-1.0
 This github repo has all the files I used to make a macropad for the average Hackclub user. My macropad contains an OLED and a 3x3 keypad.
 
-The following is a schematic made on KiCAD.
+The following is a schematic made on KiCAD. 
 
 <img width="525" height="361" alt="image" src="https://github.com/user-attachments/assets/7e93ce68-733f-4632-937f-c7f1aa9bd1d8" />
 
